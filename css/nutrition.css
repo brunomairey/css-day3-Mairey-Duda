@@ -2,23 +2,73 @@
   margin: 0;
   padding: 0;
 }
-
+body {
+}
+.bigmac {
+  border: black solid 2px;
+  width: 25%;
+  margin: auto;
+}
 .wrapper {
-    
+  margin: 5px 5px 5px 5px;
+
   display: flex;
   flex-direction: column;
-  width: 25%;
- 
-
+}
+.fettekuh {
+  background-color: black;
+  height: 10px;
 }
 
 .ingredients {
   display: flex;
-  border: blue solid 2px;
+border-top: black 1px solid;
   flex-flow: row;
-  
-  
 }
+.text {
+  display: flex;
+
+  flex-flow: row;
+}
+
+.needs {
+  display: flex;
+
+  flex-flow: row;
+}
+
+.calories {
+  display: flex;
+
+  flex-flow: row;
+}
+
+.pleft {
+  flex-basis: 60%;
+}
+.pmiddle {
+  flex-basis: 20%;
+}
+
+.pright {
+  flex-basis: 20%;
+  text-align: right;
+}
+
+.pn1{
+flex-basis: 40%;
+}
+.pn2{
+    flex-basis: 20%;
+}
+.pn3{
+    flex-basis: 20%;
+}
+.pn4{
+    flex-basis: 20%;
+}
+
+
 
 /*
 flex-basis use it Inside the P for colum width in %
