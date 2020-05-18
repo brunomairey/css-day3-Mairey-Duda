@@ -1,34 +1,25 @@
-
 * {
-    margin: 0;
-    padding: 0;
-    }
+  margin: 0;
+  padding: 0;
+}
 
-.wrapper{
+.wrapper {
+    
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+ 
 
-    display:flex;
-   flex-direction: column;
 }
 
 .ingredients {
-    flex-wrap: wrap;
-    flex-direction: row;
-    border: blue solid 5px;
-    float: left;
-}
-.pleft {
-
-
-
+  display: flex;
+  border: blue solid 2px;
+  flex-flow: row;
+  
+  
 }
 
-.pmiddle{
-   
-
-}
-.pright{
-   
-}
 /*
 flex-basis use it Inside the P for colum width in %
 text-indent first line of each block moved a little bit (either plus or minus)
