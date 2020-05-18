@@ -4,13 +4,31 @@
     padding: 0;
     }
 
-.parentbox{
+.wrapper{
 
     display:flex;
-    flex-direction: column;
-    flex-basis: ;
+   flex-direction: column;
 }
 
+.ingredients {
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: blue solid 5px;
+    float: left;
+}
+.pleft {
+
+
+
+}
+
+.pmiddle{
+   
+
+}
+.pright{
+   
+}
 /*
 flex-basis use it Inside the P for colum width in %
 text-indent first line of each block moved a little bit (either plus or minus)
