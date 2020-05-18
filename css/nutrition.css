@@ -1,0 +1,17 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+.parentbox{
+
+    display:flex;
+    flex-direction: column;
+    flex-basis: ;
+}
+
+/*
+flex-basis use it Inside the P for colum width in %
+text-indent first line of each block moved a little bit (either plus or minus)
+*/
