@@ -1,0 +1,26 @@
+header > h1{
+font-weight: bolder;
+font-family: 'Times New Roman', Times, serif;
+font-size: 3em;
+color: blue;
+background-image: url(../img/e4f44875aae24bfc85925ef6a7fff135.jpg);
+
+
+}
+.Links{
+
+display: flex;
+flex-direction: column;
+
+align-items: center;
+
+}
+
+.Links > a{
+
+    padding: 1em 0 1em 0;
+    font-size: 2em;
+    transition: ease-in-out;
+  }
+
+  
